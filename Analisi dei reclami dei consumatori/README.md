@@ -1,5 +1,9 @@
 # Analisi dei reclami dei consumatori
 
+### Dataset
+
+[Link al dataset](https://github.com/Profession-AI/progetti-excel/blob/main/Analisi%20dei%20reclami%20dei%20consumatori/customers_complaints_assignment.xlsx)
+
 ### Obiettivo del Progetto
 Il progetto è commissionato da **FinServ Solutions**, una compagnia specializzata in soluzioni software per la gestione dei reclami dei clienti nel settore finanziario. L’obiettivo è migliorare l’efficacia nell’analisi dei reclami dei clienti tramite la ristrutturazione e la personalizzazione di un foglio di calcolo, al fine di ottimizzare l'accesso alle informazioni e il processo decisionale.
 
