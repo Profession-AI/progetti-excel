@@ -81,3 +81,5 @@ Questo progetto permette di consolidare concetti statistici e competenze pratich
 ## Conclusione
 
 La creazione e manipolazione di dati verosimili attraverso questo progetto fornisce all'azienda un **ambiente di apprendimento simulato** che consente ai dipendenti di approfondire concetti statistici e tecniche di analisi in modo efficace e pratico.
+
+# Modalità di consegna: file Excel creato
