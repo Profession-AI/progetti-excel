@@ -13,7 +13,7 @@ L'obiettivo è trasformare un semplice foglio di calcolo in uno **strumento di a
 
 ## Dataset Fornito
 
-Il dataset (scaricabile da qui: https://github.com/ProfAI/progetti/raw/main/Analisi%20di%20operazioni%20di%20trading/trades_on_exchanges.xlsx) rappresenta le transazioni finanziarie registrate nel trading di azioni effettuate da Bob. Le colonne presenti nel foglio sono:
+Il dataset (scaricabile da qui: [https://proai-datasets.s3.eu-west-3.amazonaws.com/trades_on_exchanges.xlsx](https://proai-datasets.s3.eu-west-3.amazonaws.com/trades_on_exchanges.xlsx)) rappresenta le transazioni finanziarie registrate nel trading di azioni effettuate da Bob. Le colonne presenti nel foglio sono:
 
 - **TradeID**: identificativo unico del trade (8 cifre).
 - **Stock Exchange**: mercato in cui è stata eseguita l'operazione.
