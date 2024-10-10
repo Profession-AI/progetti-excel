@@ -88,7 +88,13 @@ Questa scheda presenta una **tabella di contingenza** per analizzare la distribu
   
 **Contenuto**:
 - **Tabella di contingenza** che mostra la frequenza dei trade per regione.
-- Calcolo delle probabilità associate a eventi specifici, come il numero di trade nel Regno Unito o in paesi asiatici con determinate condizioni.
+- Calcolo delle probabilità associate a eventi specifici di seguito riportati
+
+Gli eventi da considerare per il calcolo delle probabilità sono:
+
+- Probabilità che avvenga un trade nel Regno Unito con quantità uguale a 1
+- Probabilità che avvenga un trade in un paese asiatico con quantità <= 8
+
 
 **Valore Aggiunto**: Fornisce un'analisi probabilistica delle operazioni, aiutando a prendere decisioni strategiche basate sulle distribuzioni di trading per regione.
 
