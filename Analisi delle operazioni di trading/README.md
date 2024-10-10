@@ -72,7 +72,7 @@ Questa scheda è dedicata all'analisi del profitto ottenuto dalle operazioni di 
 - **Colonna A**: riferimento ai TradeID della scheda "My Trades".
 - **Colonna B**: durata del possesso delle azioni (calcolata in giorni).
 - **Colonna C**: profitto generato da ciascun trade (differenza tra prezzo di vendita e di acquisto moltiplicata per la quantità di azioni scambiate). Formato valuta: dollaro americano con 5 cifre decimali.
-- Diagramma a barre per visualizzare la distribuzione della durata dei trade.
+- Istogramma per visualizzare la distribuzione della durata dei trade.
 - **Commento** sotto il grafico per spiegare se la durata segue una distribuzione normale o meno.
 
 **Valore Aggiunto**: Fornisce un'analisi immediata e dettagliata dei profitti, evidenziando le performance delle operazioni in relazione alla loro durata.
