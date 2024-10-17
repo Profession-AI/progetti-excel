@@ -104,4 +104,3 @@ Gli eventi da considerare per il calcolo delle probabilità sono:
 
 Questo progetto non si limita a una semplice modifica di un foglio di calcolo, ma trasforma i dati finanziari in un potente strumento decisionale per **FinTrack Solutions**. Grazie a una struttura di facile lettura e a funzioni avanzate come tabelle pivot, analisi del profitto e distribuzioni probabilistiche, il cliente potrà monitorare le sue performance finanziarie e ottimizzare le sue operazioni di trading in modo efficace e strategico.
 
-# Modalità di consegna: file Excel creato

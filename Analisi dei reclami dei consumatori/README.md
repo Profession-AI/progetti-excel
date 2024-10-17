@@ -61,5 +61,3 @@ Per realizzare il progetto, dovrai modificare il foglio di calcolo allegato in m
 **Contenuto**:
 - Nella colonna A sono riportati tutti i possibili motivi di reclamo (valori distinti della colonna `Issues` del tab principale).
 - Nella cella B7 si riporta il valore moda (il più frequente) fra tutte le categorie di reclami. *(Hint: contare le occorrenze delle varie issue e fare la moda fra i valori numerici)*.
-
-# Modalità di consegna: file Excel creato
