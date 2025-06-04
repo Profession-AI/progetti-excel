@@ -1,36 +1,15 @@
-Ciao! Prima ancora di metterti al lavoro sul progetto, ti do una breve anticipazione su come puoi applicare la data analytics nell’ambito finance, proprio partendo dal contesto del progetto che andrai a svolgere.
+Prima di iniziare il progetto, voglio darti un’anticipazione su come la data analytics si inserisce nel contesto finanziario e perché sarà un'abilità preziosa per te.
 
----
+Quando lavori con dati finanziari, specialmente nell’analisi dell’andamento di un’azione, la data analytics ti permette di trasformare montagne di numeri in informazioni utili e decisioni strategiche. In questo progetto, userai Excel per:
 
-## Come usare la Data Analytics in ambito Finance
+- **Calcolare metriche chiave** come rendimento medio e volatilità (deviazione standard), che sono fondamentali per valutare se un titolo è un investimento interessante o rischioso. Questi numeri non sono solo statistiche: rappresentano la base per capire come si comporta un’azione nel tempo.
+  
+- **Visualizzare i dati tramite grafici e tabelle pivot**, che ti aiutano a scovare pattern e trend nascosti. Per esempio, potresti scoprire che un’azione tende a salire in certi periodi o reagisce a eventi particolari, informazioni preziose per prevedere movimenti futuri.
 
-In un progetto su analisi dell’andamento di un’azione (o di uno strumento finanziario), la data analytics ti permette di esplorare e interpretare grandi quantità di dati finanziari storici per trarre insight fondamentali e supportare decisioni informate. Ecco come puoi approcciare lo studio nell’ambito finance:
+- **Organizzare e correlare dati** da diverse fonti, come altri titoli o indici di mercato, per comprendere l’andamento generale rispetto al settore o all’economia globale. Avere questa prospettiva ti dà una visione più completa e ti evita di “guardare il singolo albero e perdere la foresta”.
 
-### 1. **Raccolta e Pulizia Dati**
-- Importi dati di prezzo, volumi, indicatori finanziari da fonti affidabili (es. Yahoo Finance, Bloomberg, o dati CSV esportati).
-- Preprocessi i dati per eliminare valori mancanti, assegnare formati corretti (date, numeri), e uniformare la frequenza temporale (giornaliera, settimanale).
+Applicando questi strumenti, diventi capace di supportare decisioni d’investimento più informate, riducendo rischi e aumentando le potenzialità di rendimento. In poche parole: la data analytics per finance ti consente di lavorare con dati reali e tradurli in conoscenza azionabile, un passo fondamentale per chi vuole operare in modo professionale nel settore.
 
-### 2. **Visualizzazione**
-- Crei grafici di serie temporali per osservare l’andamento del prezzo nel tempo.
-- Monitori trend, volatilità e pattern ricorrenti come gap, picchi, o fasi di accumulo/distribuzione.
+Approcciarti al progetto con questa mentalità ti farà apprezzare come anche strumenti accessibili come Excel possono diventare potenti alleati nell’analisi finanziaria e nel processo decisionale.
 
-### 3. **Calcolo di Indicatori Finanziari**
-- Applichi indicatori tecnici come medie mobili, RSI (Relative Strength Index), MACD (Moving Average Convergence Divergence).
-- Questi indicatori ti aiutano a segnalare potenziali inversioni di trend o fasi di ipercomprato/ipervenduto.
-
-### 4. **Analisi Statistica**
-- Valuti la correlazione tra vari strumenti o tra prezzo e volume.
-- Studi distribuzioni di rendimento, legge di probabilità, e modelli di rischio.
-
-### 5. **Previsioni e Modelli Predittivi**
-- Impieghi modelli di regressione, o metodi più avanzati (ARIMA, machine learning) per stimare i prezzi futuri o la probabilità di eventi di mercato.
-- Questo ti aiuta a simulare scenari e a prendere decisioni strategiche di investimento.
-
-### 6. **Interpretazione Decisionale**
-- Integra i risultati per identificare opportunità di trading, valutare rischi, e determinare momenti ottimali di acquisto o vendita.
-- Puoi anche valutare l’efficienza di strategie basate sui dati analizzati.
-
-
-Nel tuo percorso di data analytics, concentrarti su un progetto che analizza l’andamento di un’azione ti permette di applicare tecniche fondamentali di manipolazione dati, visualizzazione interattiva e modellazione statistica, tutte skills che in finance valgono moltissimo. E soprattutto puoi imparare a leggere il mercato con occhio critico e dato alla mano.
-
-Così il lavoro sul progetto sarà non solo un esercizio tecnico, ma anche un’entrata pratica nel mondo della finanza quantitativa.
+Buon lavoro e buona analisi!
