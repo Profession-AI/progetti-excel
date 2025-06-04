@@ -1,46 +1,100 @@
-# Suggerimenti 
+# Suggerimenti per la Risoluzione del Progetto: Analisi dell’Andamento di un’Azione in Excel
 
-## Fase 1: Raccolta dei Dati
+---
 
-1. **Identificazione del Titolo**: Scegli un'azione specifica da analizzare (es. Microsoft). Assicurati che ci sia una quantità sufficiente di dati storici disponibili.
-2. **Download dei Dati Storici**: Vai su [Yahoo Finance](https://finance.yahoo.com/) o un'altra fonte affidabile e gratuita, e scarica i dati storici del titolo scelto. Cerca dati su apertura, chiusura, massimo, minimo e volumi di trading.
+## 1. Raccolta e Preparazione dei Dati
 
-## Fase 2: Preparazione dei Dati in Excel
+- **Scarica i dati storici** da Yahoo Finance o altra fonte affidabile:
+  - Preferibilmente dati giornalieri con colonne come Data, Prezzo di chiusura, Apertura, Massimo, Minimo, Volume.
+  - Salva il file in formato CSV o Excel per facilitare l’importazione.
 
-1. **Importazione Dati in Excel**: Dopo aver scaricato i dati (di solito in formato CSV), apri Excel e importa i dati.
-2. **Organizzazione dei Dati**: Assicurati che i dati siano ben organizzati. Potrebbe essere necessario rimuovere colonne non necessarie e aggiungere colonne calc fcolonne con calcoli utili all'analisi.
+- **Importa i dati in Excel**:
+  - Controlla che le date siano correttamente formattate.
+  - Ordina i dati in ordine cronologico crescente (dal più vecchio al più recente).
 
-## Fase 3: Analisi Statistica
+- **Pulisci i dati**:
+  - Rimuovi righe con dati mancanti o incomplete.
+  - Assicurati che i valori siano numerici là dove richiesto.
 
-1. **Calcolo del Rendimento Medio**:
-   - Settimanale: Usare la formula [(Prezzo Finale della settimana - Prezzo Iniziale della settimana) / Prezzo Iniziale della settimana].
-   - Mensile: Calcolare similmente al rendimento settimanale, adattando i dati per un periodo mensile.
+---
 
-2. **Calcolo della Deviazione Standard**:
-   - Usa la funzione `=STDEV.P(range)` per calcolare la deviazione standard del rendimento mensile.
+## 2. Calcolo dei Rendimento e Variazioni Percentuali
 
-3. **Calcolo della Variazione Percentuale Giornaliera**:
-   - Crea una nuova colonna per il calcolo della variazione percentuale quotidiana: [(Prezzo di Chiusura Oggi - Prezzo di Chiusura Ieri) / Prezzo di Chiusura Ieri].
+- **Rendimento giornaliero**:
+  - Calcola la variazione percentuale tra il prezzo di chiusura di due giorni consecutivi.
+  - Formula Excel: `=(Prezzo_chiusura_oggi - Prezzo_chiusura_ieri)/Prezzo_chiusura_ieri`
 
-## Fase 4: Creazione di Tabelle Pivot
 
-1. **Configurazione delle Tabelle Pivot**:
-   - Crea una tabella pivot per organizzare e riassumere i dati importanti.
-   - Analizza se ci sono correlazioni con altri indici come l'S&P 500 aggiungendo dati di confronto se disponibili.
+- **Rendimento settimanale e mensile**:
+  - Raggruppa i dati per settimana e mese (.
+  - Calcola il rendimento complessivo usando il prezzo di chiusura iniziale e finale del periodo scelto.
+  - Calcola il rendimento medio: Usa `MEDIA` sui rendimenti settimanali o mensili.
+  
+- **Deviazione standard**:
+  - Calcola la volatilità usando `DEV.ST` o `DEV.ST.P` sui rendimenti mensili.
+  - Ti dà un’idea della variabilità dei rendimenti e della rischiosità del titolo.
 
-## Fase 5: Visualizzazione Grafica
+---
 
-1. **Creazione di Grafici a Linee e a Barre**:
-   - Usa grafici a linee per rappresentare l'andamento temporale dell'azione.
-   - Usa grafici a barre per una rapida visualizzazione della variazione percentuale o della volatilità.
+## 3. Creazione di Tabelle Pivot
 
-## Fase 6: Redazione del Report Finale
+- **Organizza i dati** in modo da poterli analizzare facilmente con tabelle pivot:
+  - Crea campi per Date, Rendimento, Mese, Anno.
+  - Aggiungi, se possibile, dati di altri titoli o indici (ad esempio l'S&P 500) per analizzare correlazioni.
 
-1. **Sintesi e Raccomandazioni**:
-   - Scrivere un breve report che sintetizzi le principali scoperte dall'analisi.
-   - Proporre raccomandazioni di investimento basate sui dati analizzati.
+- **Analizza le correlazioni**:
+  - Usa la tabella pivot per calcolare medie, somma, conteggi di rendimento per diversi intervalli temporali.
+  - Inserisci i rendimenti degli altri titoli nella stessa tabella per a confrontare trend.
 
-## Conclusione e Preparazione per Analisi Future
+---
 
-Al completamento di queste fasi, concludi il progetto con considerazioni finali e proponi eventuali nuove direzioni per ulteriori approfondimenti. Questo processo di analisi dei dati fornirà una solida esperienza nella manipolazione e interpretazione dei dati finanziari tramite Excel, preparando le basi per progetti più complessi nel campo dell’analisi finanziaria.
+## 4. Visualizzazione Grafica
 
+- **Grafici a linee**:
+  - Traccia il prezzo di chiusura nel tempo per visualizzare l’andamento generale.
+  - Traccia i rendimenti settimanali o mensili per individuare trend e volatilità.
+
+- **Grafici a barre**:
+  - Mostra la deviazione standard per i diversi mesi o anni per confrontare la volatilità nel tempo.
+  - Visualizza l’andamento della variazione percentuale giornaliera.
+
+- **Sfrutta i filtri e i segmenti**:
+  - Per permettere di analizzare i dati secondo vari intervalli temporali o per comparare titoli diversi.
+
+---
+
+## 5. Redazione del Report finale
+
+- **Sintetizza le principali evidenze**:
+  - Rendimento medio (settimanale e mensile).
+  - Volatilità (deviazione standard) e impatto sul rischio.
+  - Identifica pattern o anomalie nel comportamento dell’azione.
+  - Evidenzia correlazioni importanti con indici o altri titoli.
+
+- **Formula raccomandazioni** basate sulle analisi:
+  - Ad esempio, se alta volatilità, suggerisci cautela o strategie di diversificazione.
+  - Se trend positivo consolidato, suggerisci opportunità di investimento.
+
+- **Aggiungi screenshot** di grafici e tabelle pivot per supportare le conclusioni.
+
+---
+
+## 6. Consigli Pratici per l’Utilizzo di Excel
+
+- Usa **formattazioni condizionali** per evidenziare variazioni significative.
+- Imposta **tabelle Excel** con intervalli dinamici per facilitare aggiornamenti futuri.
+- Usa **nomi definiti** per intervalli chiave per semplificare formule.
+- Salva versioni multiple e usa l’autosalvataggio per non perdere dati.
+
+---
+
+## 7. Possibili Estensioni Future
+
+- Calcolo di indicatori finanziari più avanzati (es. Beta, Sharpe Ratio).
+- Analisi con **strumenti di regressione** per testare correlazioni statistiche.
+- Automazione con **macro VBA** per aggiornamento dati e report.
+- Integrazione con Power Query/Power Pivot per gestione dati più complessa.
+
+---
+
+Seguendo questi suggerimenti massimizzerai l’efficacia dell’analisi, fornendo a **FinVision Ltd** uno strumento di supporto decisionale solido e affidabile!
