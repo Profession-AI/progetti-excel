@@ -19,7 +19,7 @@ Il progetto mira a sfruttare la versatilità di Excel per eseguire un'analisi de
 
 In qualità di analista, il tuo compito sarà di:
 
-1. Scaricare i dati storici del titolo azionario di interesse (es. Microsoft) [da qui](https://github.com/Profession-AI/progetti-excel/raw/refs/heads/main/Analizza%20l%E2%80%99andamento%20di%20un%E2%80%99azione%20in%20Excel/MSFT.csv)
+1. Scaricare i dati storici del titolo azionario di interesse (es. Microsoft) [da qui](https://github.com/Profession-AI/progetti-excel/blob/main/Analizza%20l%E2%80%99andamento%20di%20un%E2%80%99azione%20in%20Excel/MSFT.csv)
    
 2. Utilizzare Excel per svolgere le seguenti operazioni:
    - Calcolare il **rendimento medio** settimanale e mensile del titolo.
