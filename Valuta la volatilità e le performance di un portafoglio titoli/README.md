@@ -28,7 +28,16 @@ FinStrategy Inc. vuole migliorare la sua capacità di analizzare e ottimizzare i
 
 ### Fonti di Dati
 
-Per condurre questa analisi, dovrai raccogliere dati storici sui prezzi degli asset che compongono il portafoglio (ovvero i titoli Microsoft, Amazon, Tesla). Ti consiglio di consultare fonti affidabili come Yahoo Finance o Google Finance per ottenere i dati necessari. Tali dati vanno integrati in un portafoglio unico, con una asset allocation variabile e parametrica gestita mediante opportune celle in Excel.
+Per condurre questa analisi, dovrai raccogliere dati storici sui prezzi degli asset che compongono il portafoglio (ovvero i titoli Microsoft, Amazon, Tesla). 
+
+I dati sono scaricabili da questi link:
+
+- [Amazon](https://github.com/Profession-AI/progetti-excel/raw/refs/heads/main/Valuta%20la%20volatilit%C3%A0%20e%20le%20performance%20di%20un%20portafoglio%20titoli/AMZN.csv)
+- [Microsoft](https://github.com/Profession-AI/progetti-excel/raw/refs/heads/main/Valuta%20la%20volatilit%C3%A0%20e%20le%20performance%20di%20un%20portafoglio%20titoli/MSFT.csv)
+- [Tesla](https://github.com/Profession-AI/progetti-excel/raw/refs/heads/main/Valuta%20la%20volatilit%C3%A0%20e%20le%20performance%20di%20un%20portafoglio%20titoli/TSLA.csv)
+
+
+Tali dati vanno integrati in un portafoglio unico, con una asset allocation variabile e parametrica gestita mediante opportune celle in Excel.
 
 ## Metodologia
 
