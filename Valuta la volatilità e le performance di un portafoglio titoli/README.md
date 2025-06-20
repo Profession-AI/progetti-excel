@@ -32,9 +32,9 @@ Per condurre questa analisi, dovrai raccogliere dati storici sui prezzi degli as
 
 I dati sono scaricabili da questi link:
 
-- [Amazon](https://github.com/Profession-AI/progetti-excel/raw/refs/heads/main/Valuta%20la%20volatilit%C3%A0%20e%20le%20performance%20di%20un%20portafoglio%20titoli/AMZN.csv)
-- [Microsoft](https://github.com/Profession-AI/progetti-excel/raw/refs/heads/main/Valuta%20la%20volatilit%C3%A0%20e%20le%20performance%20di%20un%20portafoglio%20titoli/MSFT.csv)
-- [Tesla](https://github.com/Profession-AI/progetti-excel/raw/refs/heads/main/Valuta%20la%20volatilit%C3%A0%20e%20le%20performance%20di%20un%20portafoglio%20titoli/TSLA.csv)
+- [Amazon](https://github.com/Profession-AI/progetti-excel/blob/main/Valuta%20la%20volatilit%C3%A0%20e%20le%20performance%20di%20un%20portafoglio%20titoli/AMZN.csv)
+- [Microsoft](https://github.com/Profession-AI/progetti-excel/blob/main/Valuta%20la%20volatilit%C3%A0%20e%20le%20performance%20di%20un%20portafoglio%20titoli/MSFT.csv)
+- [Tesla](https://github.com/Profession-AI/progetti-excel/blob/main/Valuta%20la%20volatilit%C3%A0%20e%20le%20performance%20di%20un%20portafoglio%20titoli/TSLA.csv)
 
 
 Tali dati vanno integrati in un portafoglio unico, con una asset allocation variabile e parametrica gestita mediante opportune celle in Excel.
