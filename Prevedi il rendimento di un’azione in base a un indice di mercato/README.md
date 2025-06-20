@@ -30,7 +30,7 @@ L'azienda richiede di costruire un modello di regressione lineare, utilizzando E
 
 ## Attività e Fonti Dati
 
-1. **Raccolta Dati**: Inizia con il download dei dati storici di prezzi dell'azione [Microsoft](https://github.com/Profession-AI/progetti-excel/raw/refs/heads/main/Prevedi%20il%20rendimento%20di%20un%E2%80%99azione%20in%20base%20a%20un%20indice%20di%20mercato/MSFT.csv) e dell'indice [S&P 500](https://github.com/Profession-AI/progetti-excel/raw/refs/heads/main/Prevedi%20il%20rendimento%20di%20un%E2%80%99azione%20in%20base%20a%20un%20indice%20di%20mercato/SPY.csv).
+1. **Raccolta Dati**: Inizia con il download dei dati storici di prezzi dell'azione [Microsoft](https://github.com/Profession-AI/progetti-excel/blob/main/Prevedi%20il%20rendimento%20di%20un%E2%80%99azione%20in%20base%20a%20un%20indice%20di%20mercato/MSFT.csv) e dell'indice [S&P 500](https://github.com/Profession-AI/progetti-excel/blob/main/Prevedi%20il%20rendimento%20di%20un%E2%80%99azione%20in%20base%20a%20un%20indice%20di%20mercato/SPY.csv).
 2. **Analisi Esplorativa dei Dati**: Analizza i dati raccolti per individuare eventuali trend, andamenti o anomalie.
 3. **Costruzione del Modello**: Utilizza Excel per creare un modello di regressione lineare che predica il rendimento di Microsoft basato sui movimenti dell'S&P 500.
 
