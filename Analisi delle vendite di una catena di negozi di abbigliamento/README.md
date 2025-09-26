@@ -2,7 +2,7 @@
 
 **TrendyShoes S.r.l.** è un'azienda italiana operante nel settore delle calzature fashion, attiva online e con punti vendita fisici. Con l'espansione degli ultimi due anni, la direzione vuole adottare un approccio data-driven per ottimizzare le **vendite**, migliorare la **customer satisfaction** e pianificare le **strategie promozionali**.
 
-Il progetto si basa sull’utilizzo del dataset **Global Superstore** (scaricabile gratuitamente da [Kaggle](https://www.kaggle.com/datasets/henrysue/global-superstore)) e si sviluppa in due fasi:
+Il progetto si basa sull’utilizzo del dataset **Global Superstore** (scaricabile gratuitamente da [Kaggle](https://www.kaggle.com/datasets/apoorvaappz/global-super-store-dataset)) e si sviluppa in due fasi:
 
 ---
 
